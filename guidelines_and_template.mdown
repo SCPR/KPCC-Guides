@@ -1,0 +1,28 @@
+## Guidelines and Template
+###### July 30, 2012
+
+### Guidelines
+
+* Line breaks in files every ~80-90 characters.
+* Prefer tick syntax for code blocks over four-space syntax.
+* Main header h2. Tags and date h6. Other headers at your 
+discretion.
+* Try to keep code blocks from having horizontal scroll bars.
+* Try not to use giant blocks of code. Instead, refer to a gist 
+where you would have put the block.
+
+```ruby
+variable = "This is some ruby code."
+```
+
+**Bold** and *italic* text are fun to use.
+[Links](http://www.scpr.org) too!
+
+### Smaller headers and Tags
+
+Smaller headers should be used for sub-sections.
+Tags are meant to be parsed and included in Tumblr posts or 
+whatever. They should help people using a search tool to find
+this particular post.
+
+###### Tags: guidelines, template
