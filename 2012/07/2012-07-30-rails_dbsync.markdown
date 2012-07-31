@@ -29,6 +29,11 @@ Then just copy and paste this into `yourapp/lib/tasks/dbsync.rake` and run `rake
 to see the available tasks!
 
 ```ruby
+desc "Alias for dbsync:pull"
+task :dbsync do
+  Rake::Task["dbsync:pull"].invoke
+end
+
 namespace :dbsync do
   task :dump_file_config => :environment do
     if Rails.env == 'production'
