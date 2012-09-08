@@ -146,7 +146,7 @@ end
 
 class PostObserver < ActiveRecord::Observer
   def after_save(post)
-	post.view_fragments.each do |fragment|
+	post.cache_fragments.each do |fragment|
       ActionController::Base.new.expire_fragment fragment.key
     end
   end
