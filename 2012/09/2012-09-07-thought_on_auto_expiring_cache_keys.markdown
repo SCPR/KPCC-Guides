@@ -104,7 +104,7 @@ This method (on cache hit):
 * Doesn't render any partials
 * Only needs to check the cache for a single key
 
-# Manual expiration - really not that bad
+### Manual expiration - really not that bad
 
 The only downside, of course, is that the cache needs to be manually expired - but 
 that's, what, 5 lines in an observer?
