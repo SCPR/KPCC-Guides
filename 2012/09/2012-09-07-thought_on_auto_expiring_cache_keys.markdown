@@ -153,10 +153,6 @@ class PostObserver < ActiveRecord::Observer
 end
 ```
 
-Auto-expiring keys also require extra writing (therefore, extra queries) to 
-the database to update associated objects (such as a `Blog`) whenever a `Post` 
-is saved. Not a huge deal, but worth a mention.
-
 So - thoughts?
 
 ###### Tags: rails, redis, cache, "cache strategy"
